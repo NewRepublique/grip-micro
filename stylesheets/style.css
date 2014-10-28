@@ -1,5 +1,15 @@
 /* line 1, ../scss/style.sass */
 section {
-  padding: 18% 0;
+  padding: 18% 3em;
   border-bottom: 1px solid #d2d2d2;
+}
+
+/* line 4, ../scss/style.sass */
+section:nth-of-type(odd) {
+  background-color: #e2e2e2;
+}
+
+/* line 6, ../scss/style.sass */
+.center {
+  text-align: center;
 }
