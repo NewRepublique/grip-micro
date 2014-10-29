@@ -1,9 +1,11 @@
 $grip-pink: #eb4382
-section 
-	padding: 18% 3em
-	border-bottom: 1px solid #d2d2d2
+@mixin clearfix
+	&:after
+		content: ""
+		display: table
+		clear: both
 section:nth-of-type(odd)
-	background-color: #e2e2e2
+	background-color: #efefef
 .center 
 	text-align: center
 .block-list
@@ -18,3 +20,28 @@ section:nth-of-type(odd)
 	margin: 0 auto 0.4em auto
 	color: #fff
 	text-align: center
+form 
+	padding-bottom: 10em
+#final 
+	border: none
+section 
+	padding: 18% 2em
+.nextUp:not(.button) 
+	position: absolute
+	bottom: 0
+	width: 100%
+	text-align: center
+	padding-bottom: 2em
+	left: 0 // set to half of whatever the section padding is
+
+//section specific padding
+#attraction
+	padding: 22% 2em
+#brand-application
+	padding: 22% 2em
+#dimensions
+	padding: 11% 2em
+#generosity, #proximity
+	padding: 14% 2em
+#final 
+	padding: 10% 2em

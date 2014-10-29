@@ -6,9 +6,12 @@
     <title>Foundation</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/onepage.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+
+    <div id="grip">
     
     <section id="introduction">
       <div class="row">
@@ -16,8 +19,11 @@
           <h1>GRiP</h1>
           <h2 class="subheader">How To Sell More Through The Rules Of Interpersonal Attraction</h2>
           <p>GRiP is a simple tool built to allow brands to better understand modern consumers. By assessing their performance in the dimensions of Generosity, Responsiveness, and Proximity, brands can more effectively market and sell to their customers. </p>
+          <a class="button secondary round getBook">Get the free book</a>
+          <a class="button round nextUp">Learn more</a>
         </div>
       </div>
+      
     </section>
     <section id="attraction">
       <div class="row">
@@ -27,17 +33,7 @@
           <p>In the theory of Interpersonal Attraction, five key dimensions generally stand out as affecting the likelihood of one individual liking and being attracted to another.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="large-block-grid-5 block-list">
-            <li class="center"><h4>Propinquity</h4> The physical or psychological proximity between people</li>
-            <li class="center"><h4>Similiarity</h4> How many traits, values, and beliefs are shared between people</li>
-            <li class="center"><h4>Physical Attractiveness</h4> How attractive one person finds another</li>
-            <li class="center"><h4>Responsiveness</h4> How responsive people are to one another's needs</li>
-            <li class="center"><h4>Reciprocal Liking</h4> Whether or not someone returns another's feelings</li>
-          </ul>
-        </div>
-      </div>
+      <a href="#" class="nextUp">Next: <strong>Applying to Brand</strong></a>
     </section>
     <section id="brand-application">
       <div class="row">
@@ -46,6 +42,7 @@
           <p>If we accept that we are drawn almost preternaturally to certain brands, then it seems logical to assess our relationship with brands in much the same way as we would evaluate relationships between one person and another.</p>
         </div>
       </div>
+      <a href="#" class="nextUp">Next: <strong>Dimensions of GRiP</strong></a>
     </section>
     <section id="dimensions">
       <div class="row">
@@ -77,6 +74,7 @@
           </div>
         </div>
       </div>
+      <a href="#" class="nextUp">Next: <strong>Generosity</strong></a>
     </section>
     <section id="generosity">
       <div class="row">
@@ -89,6 +87,7 @@
           <p>Thus a brand's generosity of spirit is a reflection of their inner world: a reflection of their values, culture, point of view on the human experience, and their drive to make society better in some way.</p>
         </div>
       </div>
+      <a href="#" class="nextUp">Next: <strong>Responsiveness</strong></a>
     </section>
     <section id="responsiveness">
       <div class="row">
@@ -99,6 +98,7 @@
           <p>Responsiveness is all about the brand's intimate understanding of customers. It differs from generosity in a very crucial way. Whereas generosity can benefit consumers en masse, or society in toto, responsiveness is more of an individual or granulated understanding or meeting of specific needs, and less of a generalised out-pouring of good will or lagresse.</p>
         </div>
       </div>
+      <a href="#" class="nextUp">Next: <strong>Proximity</strong></a>
     </section>
     <section id="proximity">
       <div class="row">
@@ -111,6 +111,7 @@
           <p>GRiP evaluates a brand's proximity by looking at its presence across four key physical dimensions: Me, My World, My Community, and The World. These dimensions go from an already engaged customer (Me), out to passive, traditional advertising (The World).</p>
         </div>
       </div>
+      <a href="#" class="nextUp">Next: <strong>Get the free book</strong></a>
     </section>
     <section id="final">
       <div class="row">
@@ -120,53 +121,59 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-8 columns large-centered">
-          <div class="row">
-            <div class="large-6 columns">
-              <label for="first">
-                First Name
-                <input type="text" id="first" placeholder="First name">
-              </label>
+        <form action="">
+          <div class="large-8 columns large-centered">
+            <div class="row">
+              <div class="large-6 columns">
+                <label for="first">
+                  First Name
+                  <input type="text" id="first" placeholder="First name">
+                </label>
+              </div>
+              <div class="large-6 columns">
+                <label for="last">
+                  Last Name
+                  <input type="text" id="last" placeholder="Last name">
+                </label>
+              </div>
             </div>
-            <div class="large-6 columns">
-              <label for="last">
-                Last Name
-                <input type="text" id="last" placeholder="Last name">
-              </label>
+            <div class="row">
+              <div class="large-12 columns">
+                <label for="email">Email
+                  <input type="email" id="email" placeholder="Your email address">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-6 columns">
+                <label for="company">
+                  Company Name
+                  <input type="text" id="company" placeholder="Company name">
+                </label>
+              </div>
+              <div class="large-6 columns">
+                <label for="role">
+                  Your Role <small>Optional</small>
+                  <input type="text" id="role" placeholder="Your role">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <submit class="button small radius round">Get your copy</submit>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label for="email">Email
-                <input type="email" id="email" placeholder="Your email address">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 columns">
-              <label for="company">
-                Company Name
-                <input type="text" id="company" placeholder="Company name">
-              </label>
-            </div>
-            <div class="large-6 columns">
-              <label for="role">
-                Your Role <small>Optional</small>
-                <input type="text" id="role" placeholder="Your role">
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <submit class="button small radius round">Get your copy</submit>
-            </div>
-          </div>
-        </div>
+        </form>
       </div>
     </section>
 
+    </div>
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/onepage.js"></script>
     <script src="js/app.js"></script>
+    
   </body>
 </html>
